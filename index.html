@@ -19,10 +19,16 @@
           margin: 0;
           background-color: #f5f5f5;
           font-family: sans-serif !important;
-          padding: 20px;
+      }
 
-          .formkit-form[data-uid="03b3646d77"] [data-style="full"] {
+      @media (min-width: 768px) {
+          .formkit-form [data-style="full"] {
               display: flex !important;
+          }
+      }
+      @media (max-width: 767px) {
+          body {
+              padding: 100px 0;
           }
       }
   </style>
